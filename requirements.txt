@@ -1,0 +1,13 @@
+# Core testing tools
+pytest==8.2.1
+playwright==1.44.0
+
+# Reporting
+pytest-html==4.1.1
+allure-pytest==2.13.2
+
+# Environment and configuration (optional)
+python-dotenv==1.0.1
+
+# Type checking (optional but recommended)
+typing-extensions==4.11.0

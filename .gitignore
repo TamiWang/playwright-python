@@ -1,0 +1,27 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Test reports and logs
+allure-results/
+allure-report/
+reports/
+screenshots/
+
+# VSCode settings
+.vscode/
+.idea/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
