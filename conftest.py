@@ -1,6 +1,6 @@
 import pytest
 from playwright.sync_api import sync_playwright
-from pages.base_page import BasePage  # ✅ reuse timeout logic from BasePage
+from pages.base_page import BasePage  # reuse timeout logic from BasePage
 
 @pytest.fixture(scope="function")
 def page():
@@ -10,7 +10,7 @@ def page():
         context = browser.new_context()
         page = context.new_page()
 
-        # ✅ Apply default timeouts via BasePage
+        # Apply default timeouts via BasePage
         BasePage(page)
 
         yield page
